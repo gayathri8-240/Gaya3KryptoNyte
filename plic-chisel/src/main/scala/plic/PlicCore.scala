@@ -37,15 +37,15 @@ class PlicCore(val sources: Int = 8, val targets: Int = 1, val priorities: Int =
 
   // create gateways per source
   val gateways = Seq.fill(sources)(Module(new PlicGateway(maxPendingCount)))
-  for (s <- 0 until sources) {
+  for (s <- 0.until(sources)) {
     gateways(s).io.rst_n := io.rst_n
     gateways(s).io.src := io.src(s)
     gateways(s).io.edge_lvl := io.el(s)
   }
 
   // instantiate cells and build id/pr arrays
-  for (t <- 0 until targets) {
-    for (s <- 0 until sources) {
+  for (t <- 0.until(targets)) {
+    for (s <- 0.until(sources)) {
       val cell = Module(new PlicCell(id = s + 1, sources = sources, priorities = priorities))
       cell.io.rst_n := io.rst_n
       cell.io.ip := gateways(s).io.ip
@@ -57,33 +57,33 @@ class PlicCore(val sources: Int = 8, val targets: Int = 1, val priorities: Int =
   }
 
   // id claimed register per target
-  for (t <- 0 until targets) {
+  for (t <- 0.until(targets)) {
     when(io.claim(t)) {
       id_claimed(t) := io.id(t)
     }
   }
 
   // build claim/complete arrays per source
-  for (s <- 0 until sources) {
-    for (t <- 0 until targets) {
+  for (s <- 0.until(sources)) {
+    for (t <- 0.until(targets)) {
       claim_array(s)(t) := (io.id(t) === (s + 1).U) && io.claim(t)
       complete_array(s)(t) := (id_claimed(t) === (s + 1).U) && io.complete(t)
     }
   }
 
   // connect gateway claim/complete (OR across targets)
-  for (s <- 0 until sources) {
+  for (s <- 0.until(sources)) {
     gateways(s).io.claim := claim_array(s).asUInt.orR
     gateways(s).io.complete := complete_array(s).asUInt.orR
     io.ip(s) := gateways(s).io.ip
   }
 
   // instantiate targets
-  for (t <- 0 until targets) {
+  for (t <- 0.until(targets)) {
     val tgt = Module(new PlicTarget(sources, priorities))
     tgt.io.rst_n := io.rst_n
     // connect id/pr arrays
-    for (s <- 0 until sources) {
+    for (s <- 0.until(sources)) {
       tgt.io.id_i(s) := id_array(t)(s)
       tgt.io.priority_i(s) := pr_array(t)(s)
     }

@@ -1,37 +1,37 @@
-[debug] Running TaskDef(PlicCoreIntegrationTest, org.scalatest.tools.Framework$$anon$1@8c3655a, false, [SuiteSelector])
-[debug] Running TaskDef(PlicTargetTest, org.scalatest.tools.Framework$$anon$1@8c3655a, false, [SuiteSelector])
-[info] PlicTargetTest:
-[info] PlicTarget
-[info] - should select highest priority id and respect threshold
-[debug] Running TaskDef(PlicGatewayTest, org.scalatest.tools.Framework$$anon$1@8c3655a, false, [SuiteSelector])
-[info] PlicGatewayTest:
-[info] PlicGateway
-[info] - should assert ip on rising edge and clear on claim/complete
-[debug] Running TaskDef(PlicTargetFuzzTest, org.scalatest.tools.Framework$$anon$1@8c3655a, false, [SuiteSelector])
-[info] PlicCoreIntegrationTest:
-[info] PlicCore
-[info] - should route highest priority from sources to target and handle claim/complete
-[info] - should respect per-target interrupt enable masks
-[debug] Running TaskDef(plic.PlicCellTest, org.scalatest.tools.Framework$$anon$1@8c3655a, false, [SuiteSelector])
-[info] PlicTargetFuzzTest:
-[info] PlicTarget
-[info] - should match combinational priority selection across random inputs
-[debug] Running TaskDef(XplicGatewayFuzzTest, org.scalatest.tools.Framework$$anon$1@8c3655a, false, [SuiteSelector])
-[info] PlicCellTest:
-[info] PlicCell
-[info] - should output priority and ID when interrupt is pending and enabled
-[info] XplicGatewayFuzzTest:
-[info] PlicGateway
-[info] - should match a cycle-accurate reference model under random stimuli
-[info] Run completed in 8 seconds, 451 milliseconds.
-[info] Total number of tests run: 7
-[info] Suites: completed 6, aborted 0
-[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[debug] Passed tests:
-[debug] 	PlicCoreIntegrationTest
-[debug] 	XplicGatewayFuzzTest
-[debug] 	PlicGatewayTest
-[debug] 	PlicTargetTest
-[debug] 	PlicTargetFuzzTest
-[debug] 	plic.PlicCellTest
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PlicGatewayTest, org.scalatest.tools.Framework$$anon$1@3c3030a0, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PlicCoreIntegrationTest, org.scalatest.tools.Framework$$anon$1@3c3030a0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicGatewayTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicGateway[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should assert ip on rising edge and clear on claim/complete[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PlicTargetFuzzTest, org.scalatest.tools.Framework$$anon$1@3c3030a0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicTargetFuzzTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicTarget[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match combinational priority selection across random inputs[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(plic.PlicCellTest, org.scalatest.tools.Framework$$anon$1@3c3030a0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicCoreIntegrationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicCore[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should route highest priority from sources to target and handle claim/complete[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should respect per-target interrupt enable masks[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(XplicGatewayFuzzTest, org.scalatest.tools.Framework$$anon$1@3c3030a0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicCellTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicCell[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should output priority and ID when interrupt is pending and enabled[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PlicTargetTest, org.scalatest.tools.Framework$$anon$1@3c3030a0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicTargetTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicTarget[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should select highest priority id and respect threshold[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mXplicGatewayFuzzTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPlicGateway[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match a cycle-accurate reference model under random stimuli[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 8 seconds, 349 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PlicCoreIntegrationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	XplicGatewayFuzzTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PlicGatewayTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PlicTargetTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PlicTargetFuzzTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	plic.PlicCellTest[0m

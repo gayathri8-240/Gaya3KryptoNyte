@@ -1,13 +1,13 @@
-[warn] /workspaces/gaya3-OctoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:11:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.
-[warn]   (new ChiselStage).emitVerilog(
-[warn]        ^
-[warn] /workspaces/gaya3-OctoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:20:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.
-[warn]   (new ChiselStage).emitVerilog(new PlicCore(), Array("--target-dir", "generated"))
-[warn]        ^
-[warn] /workspaces/gaya3-OctoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:52:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.
-[warn]   (new ChiselStage).emitVerilog(new PlicGateway(), Array("--target-dir", "generated"))
-[warn]        ^
-[warn] /workspaces/gaya3-OctoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:58:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.
-[warn]   (new ChiselStage).emitVerilog(new PlicTarget(), Array("--target-dir", "generated"))
-[warn]        ^
-[warn] four warnings found
+[0m[[0m[33mwarn[0m] [0m[0m/workspaces/Gaya3KryptoNyte/Gaya3KryptoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:11:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  (new ChiselStage).emitVerilog([0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/workspaces/Gaya3KryptoNyte/Gaya3KryptoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:20:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  (new ChiselStage).emitVerilog(new PlicCore(), Array("--target-dir", "generated"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/workspaces/Gaya3KryptoNyte/Gaya3KryptoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:52:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  (new ChiselStage).emitVerilog(new PlicGateway(), Array("--target-dir", "generated"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/workspaces/Gaya3KryptoNyte/Gaya3KryptoNyte/plic-chisel/src/main/scala/plic/PlicGenerator.scala:58:8: class ChiselStage in package stage is deprecated (since Chisel 3.6): this feature will not be supported as part of the migration to the MLIR-based FIRRTL Compiler (MFC). For more information about this migration, please see the Chisel ROADMAP.md. Please switch to circt.stage.ChiselStage.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  (new ChiselStage).emitVerilog(new PlicTarget(), Array("--target-dir", "generated"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
