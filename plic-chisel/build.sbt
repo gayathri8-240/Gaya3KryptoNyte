@@ -9,16 +9,17 @@ scalacOptions ++= Seq(
   "-feature",
   "-unchecked",
   "-language:reflectiveCalls",
+  "-target:jvm-1.8",
 )
 
 libraryDependencies ++= Seq(
-  "edu.berkeley.cs" %% "chisel3" % "3.5.4",
-  "edu.berkeley.cs" %% "chiseltest" % "0.5.4" % "test"
+  "edu.berkeley.cs" %% "chisel3" % "3.6.0",
+  "edu.berkeley.cs" %% "chiseltest" % "0.6.0" % "test"
 )
 
 resolvers ++= Seq(
-  Resolver.sonatypeRepo("snapshots"),
-  Resolver.sonatypeRepo("releases")
+  Resolver.sonatypeOssRepos("snapshots").head,
+  Resolver.sonatypeOssRepos("releases").head
 )
 
-addCompilerPlugin("edu.berkeley.cs" % "chisel3-plugin" % "3.5.4" cross CrossVersion.full)
+addCompilerPlugin("edu.berkeley.cs" % "chisel3-plugin" % "3.6.0" cross CrossVersion.full)

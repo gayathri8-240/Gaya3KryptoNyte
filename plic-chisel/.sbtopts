@@ -1,0 +1,5 @@
+-J--add-modules=jdk.unsupported
+-J--add-opens=java.base/sun.nio.ch=ALL-UNNAMED
+-J--add-opens=java.base/java.lang=ALL-UNNAMED
+-J-XX:+IgnoreUnrecognizedVMOptions
+-J--enable-native-access=jdk.unsupported

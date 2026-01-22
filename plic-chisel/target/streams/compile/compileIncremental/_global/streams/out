@@ -1,0 +1,51 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/plic/PlicTarget.scala, ${BASE}/src/main/scala/plic/PlicGateway.scala, ${BASE}/src/main/scala/plic/PlicDynamicRegisters.scala, ${BASE}/src/main/scala/plic/PlicPriorityIndex.scala, ${BASE}/src/main/scala/plic/PlicGenerator.scala, ${BASE}/src/main/scala/plic/PlicCore.scala, ${BASE}/src/main/scala/plic/PlicCell.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/plic/PlicPriorityIndex.scala, ${BASE}/src/main/scala/plic/PlicDynamicRegisters.scala, ${BASE}/src/main/scala/plic/PlicGenerator.scala, ${BASE}/src/main/scala/plic/PlicCell.scala, ${BASE}/src/main/scala/plic/PlicGateway.scala, ${BASE}/src/main/scala/plic/PlicTarget.scala, ${BASE}/src/main/scala/plic/PlicCore.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 7 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 7 Scala sources to /workspaces/gaya3-OctoNyte/plic-chisel/target/scala-2.12/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.9.5:compile for Scala 2.12.13
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...
+[debug] Creating plain compiler interface for 2.12.13.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	/tmp/sbt_970d5cd7
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar
+[debug] 	-classpath
+[debug] 	/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5-sources.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[debug] 	/tmp/sbt_6333c76/scala/ZincCompat.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/API.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/AbstractZincFile.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/Analyzer.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/CallbackGlobal.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/ClassName.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/Compat.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/CompilerBridge.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/ConsoleBridge.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/DelegatingReporter.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/Dependency.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/ExtractAPI.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/ExtractUsedNames.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/GlobalHelpers.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleBridge.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleFactoryBridge.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleHelper.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleResponse.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/JarUtils.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/JavaUtils.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/LocalToNonLocalClass.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/LocateClassFile.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/Log.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/Message.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/PlainNioFile.scala
+[debug] 	/tmp/sbt_6333c76/xsbt/ScaladocBridge.scala
+[debug]       
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.12:1.9.5.
+[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.12'
