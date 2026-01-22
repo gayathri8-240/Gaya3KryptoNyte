@@ -1,0 +1,208 @@
+[info] [launcher] getting org.scala-sbt sbt 1.9.7  (this may take some time)...
+[info] [launcher] getting Scala 2.12.18 (for sbt)...
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by net.openhft.hashing.UnsafeAccess (file:/home/codespace/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.7/zero-allocation-hashing-0.10.1.jar)
+WARNING: Please consider reporting this to the maintainers of class net.openhft.hashing.UnsafeAccess
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/home/codespace/.sbt/boot/scala-2.12.18/org.scala-sbt/sbt/1.9.7/jna-5.13.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[info] welcome to sbt 1.9.7 (Microsoft Java 25.0.1)
+[info] loading project definition from /workspaces/gaya3-OctoNyte/plic-chisel/project
+[info] loading settings for project plic-chisel from build.sbt ...
+[info] set current project to plic-chisel (in build file:/workspaces/gaya3-OctoNyte/plic-chisel/)
+[warn] scala-library-2.12.13.jar no longer exists at /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar
+[info] compiling 7 Scala sources to /workspaces/gaya3-OctoNyte/plic-chisel/target/scala-2.12/classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...
+error:
+  bad constant pool index: 0 at pos: 49428
+     while compiling: <no file>
+        during phase: globalPhase=<no phase>, enteringPhase=<some phase>
+     library version: version 2.12.13
+    compiler version: version 2.12.13
+  reconstructed args: -bootclasspath /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar -nowarn -classpath /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5-sources.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar -d /tmp/sbt_4ed7343f -Xmaxwarns 0
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+error: scala.reflect.internal.FatalError:
+  bad constant pool index: 0 at pos: 49428
+     while compiling: <no file>
+        during phase: globalPhase=<no phase>, enteringPhase=<some phase>
+     library version: version 2.12.13
+    compiler version: version 2.12.13
+  reconstructed args: -bootclasspath /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar -nowarn -classpath /home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5-sources.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar -d /tmp/sbt_4ed7343f -Xmaxwarns 0
+
+  last tree to typer: EmptyTree
+       tree position: <unknown>
+            tree tpe: <notype>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool.errorBadIndex(ClassfileParser.scala:386)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool.getExternalName(ClassfileParser.scala:250)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.readParamNames$1(ClassfileParser.scala:840)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parseAttribute$1(ClassfileParser.scala:846)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parseAttributes$7(ClassfileParser.scala:920)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:920)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parseMethod(ClassfileParser.scala:622)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parseClass$4(ClassfileParser.scala:535)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parseClass(ClassfileParser.scala:535)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$2(ClassfileParser.scala:161)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.$anonfun$parse$1(ClassfileParser.scala:147)
+	at scala.tools.nsc.symtab.classfile.ClassfileParser.parse(ClassfileParser.scala:130)
+	at scala.tools.nsc.symtab.SymbolLoaders$ClassfileLoader.doComplete(SymbolLoaders.scala:342)
+	at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.complete(SymbolLoaders.scala:249)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1542)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1514)
+	at scala.reflect.internal.Definitions.scala$reflect$internal$Definitions$$enterNewMethod(Definitions.scala:49)
+	at scala.reflect.internal.Definitions$DefinitionsClass.String_$plus$lzycompute(Definitions.scala:1134)
+	at scala.reflect.internal.Definitions$DefinitionsClass.String_$plus(Definitions.scala:1134)
+	at scala.reflect.internal.Definitions$DefinitionsClass.syntheticCoreMethods$lzycompute(Definitions.scala:1438)
+	at scala.reflect.internal.Definitions$DefinitionsClass.syntheticCoreMethods(Definitions.scala:1420)
+	at scala.reflect.internal.Definitions$DefinitionsClass.symbolsNotPresentInBytecode$lzycompute(Definitions.scala:1450)
+	at scala.reflect.internal.Definitions$DefinitionsClass.symbolsNotPresentInBytecode(Definitions.scala:1450)
+	at scala.reflect.internal.Definitions$DefinitionsClass.init(Definitions.scala:1506)
+	at scala.tools.nsc.Global$Run.<init>(Global.scala:1207)
+	at scala.tools.nsc.Driver.doCompile(Driver.scala:46)
+	at scala.tools.nsc.MainClass.doCompile(Main.scala:32)
+	at scala.tools.nsc.Driver.process(Driver.scala:67)
+	at scala.tools.nsc.Main.process(Main.scala)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at sbt.internal.inc.RawCompiler.getReporter$1(RawCompiler.scala:56)
+	at sbt.internal.inc.RawCompiler.apply(RawCompiler.scala:77)
+	at sbt.internal.inc.AnalyzingCompiler$.$anonfun$compileSources$7(AnalyzingCompiler.scala:457)
+	at sbt.internal.inc.AnalyzingCompiler$.handleCompilationError$1(AnalyzingCompiler.scala:432)
+	at sbt.internal.inc.AnalyzingCompiler$.$anonfun$compileSources$5(AnalyzingCompiler.scala:453)
+	at sbt.internal.inc.AnalyzingCompiler$.$anonfun$compileSources$5$adapted(AnalyzingCompiler.scala:448)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:496)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:506)
+	at sbt.internal.inc.AnalyzingCompiler$.$anonfun$compileSources$2(AnalyzingCompiler.scala:448)
+	at sbt.internal.inc.AnalyzingCompiler$.$anonfun$compileSources$2$adapted(AnalyzingCompiler.scala:440)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:496)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:506)
+	at sbt.internal.inc.AnalyzingCompiler$.compileSources(AnalyzingCompiler.scala:440)
+	at sbt.internal.inc.ZincComponentCompiler.$anonfun$compileAndInstall$3(ZincComponentCompiler.scala:276)
+	at sbt.internal.inc.ZincComponentCompiler.$anonfun$compileAndInstall$3$adapted(ZincComponentCompiler.scala:258)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:496)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:506)
+	at sbt.internal.inc.ZincComponentCompiler.$anonfun$compileAndInstall$2(ZincComponentCompiler.scala:258)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.util.BufferedLogger.bufferQuietly(BufferedLogger.scala:160)
+	at sbt.internal.inc.ZincComponentCompiler.$anonfun$compileAndInstall$1(ZincComponentCompiler.scala:258)
+	at sbt.internal.inc.ZincComponentCompiler.$anonfun$compileAndInstall$1$adapted(ZincComponentCompiler.scala:255)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:496)
+	at sbt.io.IO$.withTemporaryDirectory(IO.scala:506)
+	at sbt.internal.inc.ZincComponentCompiler.compileAndInstall(ZincComponentCompiler.scala:255)
+	at sbt.internal.inc.ZincComponentCompiler.$anonfun$compiledBridgeJar$1(ZincComponentCompiler.scala:223)
+	at sbt.internal.inc.IfMissing$Define.run(IfMissing.scala:20)
+	at sbt.internal.inc.ZincComponentManager.createAndCache$1(ZincComponentManager.scala:52)
+	at sbt.internal.inc.ZincComponentManager.$anonfun$files$3(ZincComponentManager.scala:63)
+	at sbt.internal.inc.ZincComponentManager.getOrElse$1(ZincComponentManager.scala:44)
+	at sbt.internal.inc.ZincComponentManager.$anonfun$files$2(ZincComponentManager.scala:63)
+	at sbt.internal.inc.ZincComponentManager$$anon$1.call(ZincComponentManager.scala:92)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:113)
+	at xsbt.boot.Locks$GlobalLock.withChannelRetries$1(Locks.scala:91)
+	at xsbt.boot.Locks$GlobalLock.$anonfun$withFileLock$1(Locks.scala:119)
+	at xsbt.boot.Using$.withResource(Using.scala:12)
+	at xsbt.boot.Using$.apply(Using.scala:9)
+	at xsbt.boot.Locks$GlobalLock.withFileLock(Locks.scala:119)
+	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:71)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:59)
+	at xsbt.boot.Locks$.apply0(Locks.scala:47)
+	at xsbt.boot.Locks$.apply(Locks.scala:36)
+	at sbt.internal.inc.ZincComponentManager.lock(ZincComponentManager.scala:92)
+	at sbt.internal.inc.ZincComponentManager.$anonfun$lockSecondaryCache$1(ZincComponentManager.scala:89)
+	at scala.Option.map(Option.scala:230)
+	at sbt.internal.inc.ZincComponentManager.lockSecondaryCache(ZincComponentManager.scala:89)
+	at sbt.internal.inc.ZincComponentManager.fromSecondary$1(ZincComponentManager.scala:61)
+	at sbt.internal.inc.ZincComponentManager.$anonfun$files$6(ZincComponentManager.scala:67)
+	at sbt.internal.inc.ZincComponentManager.getOrElse$1(ZincComponentManager.scala:44)
+	at sbt.internal.inc.ZincComponentManager.$anonfun$files$5(ZincComponentManager.scala:67)
+	at sbt.internal.inc.ZincComponentManager$$anon$1.call(ZincComponentManager.scala:92)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:113)
+	at xsbt.boot.Locks$GlobalLock.withChannelRetries$1(Locks.scala:91)
+	at xsbt.boot.Locks$GlobalLock.$anonfun$withFileLock$1(Locks.scala:119)
+	at xsbt.boot.Using$.withResource(Using.scala:12)
+	at xsbt.boot.Using$.apply(Using.scala:9)
+	at xsbt.boot.Locks$GlobalLock.withFileLock(Locks.scala:119)
+	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:71)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:59)
+	at xsbt.boot.Locks$.apply0(Locks.scala:47)
+	at xsbt.boot.Locks$.apply(Locks.scala:36)
+	at sbt.internal.inc.ZincComponentManager.lock(ZincComponentManager.scala:92)
+	at sbt.internal.inc.ZincComponentManager.lockLocalCache(ZincComponentManager.scala:85)
+	at sbt.internal.inc.ZincComponentManager.files(ZincComponentManager.scala:67)
+	at sbt.internal.inc.ZincComponentManager.file(ZincComponentManager.scala:73)
+	at sbt.internal.inc.ZincComponentCompiler.compiledBridgeJar(ZincComponentCompiler.scala:223)
+	at sbt.internal.inc.ZincComponentCompiler$ZincCompilerBridgeProvider.compiledBridge(ZincComponentCompiler.scala:64)
+	at sbt.internal.inc.ZincComponentCompiler$ZincCompilerBridgeProvider.fetchCompiledBridge(ZincComponentCompiler.scala:71)
+	at sbt.internal.inc.AnalyzingCompiler.getDualLoader(AnalyzingCompiler.scala:354)
+	at sbt.internal.inc.AnalyzingCompiler.getCompilerLoader(AnalyzingCompiler.scala:343)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:87)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:180)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:178)
+	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:464)
+	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:419)
+	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:406)
+	at sbt.internal.inc.Incremental$.apply(Incremental.scala:172)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2371)
+	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2321)
+	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:31)
+	at sbt.internal.io.Retry$.apply(Retry.scala:47)
+	at sbt.internal.io.Retry$.apply(Retry.scala:29)
+	at sbt.internal.io.Retry$.apply(Retry.scala:24)
+	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)
+	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2319)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+	at sbt.Execute.work(Execute.scala:292)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.12:1.9.5.
+[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.12'
+[error] Total time: 9 s, completed Jan 22, 2026, 2:29:51 PM

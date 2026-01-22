@@ -14,38 +14,51 @@
 [debug] Creating plain compiler interface for 2.12.13.
 [debug]   > Arguments: 
 [debug] 	-d
-[debug] 	/tmp/sbt_970d5cd7
+[debug] 	/tmp/sbt_fe435b30
 [debug] 	-nowarn
 [debug] 	-bootclasspath
 [debug] 	/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar
 [debug] 	-classpath
 [debug] 	/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.5/compiler-interface-1.9.5.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.4/util-interface-1.9.4.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.9.5/compiler-bridge_2.12-1.9.5-sources.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
-[debug] 	/tmp/sbt_6333c76/scala/ZincCompat.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/API.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/AbstractZincFile.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/Analyzer.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/CallbackGlobal.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/ClassName.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/Compat.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/CompilerBridge.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/ConsoleBridge.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/DelegatingReporter.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/Dependency.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/ExtractAPI.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/ExtractUsedNames.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/GlobalHelpers.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleBridge.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleFactoryBridge.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleHelper.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/InteractiveConsoleResponse.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/JarUtils.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/JavaUtils.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/LocalToNonLocalClass.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/LocateClassFile.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/Log.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/Message.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/PlainNioFile.scala
-[debug] 	/tmp/sbt_6333c76/xsbt/ScaladocBridge.scala
+[debug] 	/tmp/sbt_3c480714/scala/ZincCompat.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/API.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/AbstractZincFile.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/Analyzer.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/CallbackGlobal.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/ClassName.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/Compat.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/CompilerBridge.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/ConsoleBridge.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/DelegatingReporter.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/Dependency.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/ExtractAPI.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/ExtractUsedNames.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/GlobalHelpers.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/InteractiveConsoleBridge.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/InteractiveConsoleFactoryBridge.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/InteractiveConsoleHelper.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/InteractiveConsoleResponse.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/JarUtils.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/JavaUtils.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/LocalToNonLocalClass.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/LocateClassFile.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/Log.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/Message.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/PlainNioFile.scala
+[debug] 	/tmp/sbt_3c480714/xsbt/ScaladocBridge.scala
 [debug]       
-[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.12:1.9.5.
-[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.12'
+[info]   Compilation completed in 12.685s.
+[debug] [zinc] Running cached compiler 4bdd5491 for Scala compiler version 2.12.13
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-deprecation
+[debug] 	-feature
+[debug] 	-unchecked
+[debug] 	-language:reflectiveCalls
+[debug] 	-target:jvm-1.8
+[debug] 	-Xplugin:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.12.13/3.6.0/chisel3-plugin_2.12.13-3.6.0.jar
+[debug] 	-bootclasspath
+[debug] 	/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar
+[debug] 	-classpath
+[debug] 	/workspaces/gaya3-OctoNyte/plic-chisel/target/scala-2.12/classes:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.12/3.6.0/chisel3_2.12-3.6.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-macros_2.12/3.6.0/chisel3-macros_2.12-3.6.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-core_2.12/3.6.0/chisel3-core_2.12-3.6.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/2.0.0/upickle_2.12-2.0.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.12/1.6.0/firrtl_2.12-1.6.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.8.1/os-lib_2.12-0.8.1.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/2.0.0/ujson_2.12-2.0.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/2.0.0/upack_2.12-2.0.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/2.0.0/upickle-implicits_2.12-2.0.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.18.3/protobuf-java-3.18.3.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.12/0.4.2/moultingyaml_2.12-0.4.2.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.12/4.0.6/json4s-native_2.12-4.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/data-class_2.12/0.2.5/data-class_2.12-0.2.5.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.7.1/geny_2.12-0.7.1.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/2.0.0/upickle-core_2.12-2.0.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.22.0/nscala-time_2.12-2.22.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.12/4.0.6/json4s-core_2.12-4.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native-core_2.12/4.0.6/json4s-native-core_2.12-4.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/4.0.6/json4s-ast_2.12-4.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/4.0.6/json4s-scalap_2.12-4.0.6.jar:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar
+[debug] Scala compilation took 17.383803023 s
+[info] done compiling
