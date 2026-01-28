@@ -1,0 +1,54 @@
+{
+  "DESIGN_NAME": "${MODULE_NAME}",
+  
+  "VERILOG_FILES": [
+    "dir::../rtl/generators/generated/verilog_hierarchical_timed/${MODULE_NAME}.v"
+  ],
+  
+  "CLOCK_PORT": "${CLOCK_PORT:-clock}",
+  "CLOCK_PERIOD": "${CLOCK_PERIOD:-10.0}",
+  
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "${PDK_VARIANT:-sky130_fd_sc_hd}",
+  
+  "FP_CORE_UTIL": "${CORE_UTILIZATION:-0.7}",
+  "FP_ASPECT_RATIO": "${ASPECT_RATIO:-1.0}",
+  "FP_PDN_VPITCH": 7.0,
+  "FP_PDN_HPITCH": 7.0,
+  "FP_PDN_VOFFSET": 7.0,
+  "FP_PDN_HOFFSET": 7.0,
+  
+  "SYNTH_STRATEGY": "${SYNTHESIS_STRATEGY:-AREA 0}",
+  "SYNTH_READ_BLACKBOX_LIB": true,
+  "SYNTH_BUFFERING": true,
+  "SYNTH_SIZING": true,
+  
+  "PL_TARGET_DENSITY": 0.6,
+  "PL_BASIC_PLACEMENT": true,
+  "PL_SKIP_INITIAL_PLACEMENT": false,
+  
+  "RT_MAX_LAYER": 6,
+  "ROUTING_STRATEGY": "${ROUTING_STRATEGY:-0}",
+  "GLB_RT_ADJUSTMENT": 0.1,
+  
+  "RUN_KLAYOUT_STREAMOUT": "${GENERATE_GDS:-true}",
+  "RUN_KLAYOUT_DRC": "${RUN_DRC:-true}",
+  "RUN_KLAYOUT_XOR": false,
+  "RUN_MAGIC_STREAMOUT": true,
+  "ERROR_ON_MAGIC_DRC": false,
+  "ERROR_ON_LVS_ERROR": false,
+  "RUN_SPEF_EXTRACTION": true,
+  
+  "RUN_CVC": true,
+  "RUN_STA": true,
+  "RUN_ANTENNA_CHECK": true,
+  "QUIT_ON_TIMING_VIOLATIONS": false,
+  "QUIT_ON_HOLD_VIOLATIONS": false,
+  
+  "PNR_SDC_FILE": "constraints/${MODULE_NAME}.sdc",
+  "SIGNOFF_SDC_FILE": "constraints/${MODULE_NAME}_signoff.sdc",
+  
+  "EXTRA_LEFS": [],
+  "EXTRA_GDS_FILES": [],
+  "EXTRA_LIBS": []
+}

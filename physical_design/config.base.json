@@ -1,0 +1,36 @@
+{
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  
+  "CLOCK_PORT": "clock",
+  "CLOCK_PERIOD": 10.0,
+  
+  "FP_CORE_UTIL": 0.7,
+  "FP_ASPECT_RATIO": 1.0,
+  "FP_PDN_VPITCH": 7.0,
+  "FP_PDN_HPITCH": 7.0,
+  "FP_PDN_VOFFSET": 7.0,
+  "FP_PDN_HOFFSET": 7.0,
+  
+  "SYNTH_STRATEGY": "AREA 0",
+  "SYNTH_ABC_BUFFERING": true,
+  "SYNTH_SIZING": true,
+  "MAX_FANOUT_CONSTRAINT": 20,
+  
+  "PL_TARGET_DENSITY_PCT": 60,
+  "PL_SKIP_INITIAL_PLACEMENT": false,
+  
+  "RT_MAX_LAYER": "met4",
+  
+  "RUN_KLAYOUT_STREAMOUT": true,
+  "RUN_KLAYOUT_DRC": true,
+  "RUN_KLAYOUT_XOR": false,
+  "RUN_MAGIC_STREAMOUT": true,
+  "ERROR_ON_MAGIC_DRC": false,
+  "ERROR_ON_LVS_ERROR": false,
+  "RUN_SPEF_EXTRACTION": true,
+  
+  "EXTRA_LEFS": [],
+  "EXTRA_GDS_FILES": [],
+  "EXTRA_LIBS": []
+}
